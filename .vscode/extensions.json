@@ -1,19 +1,22 @@
 {
   "recommendations": [
-    "McCarter.start-git-bash",
-    "yy0931.vscode-sqlite3-editor",
-    "medo64.render-crlf",
-    "ecmel.vscode-html-css",
-    "ms-vscode.js-debug",
-    "esbenp.prettier-vscode",
-    "miramac.vscode-exec-node",
-    "oderwat.indent-rainbow",
-    "ritwickdey.LiveServer",
-    "mathematic.vscode-pdf",
-    "GitHub.codespaces",
-    "yahyabatulu.vscode-markdown-alert",
+    "bierner.markdown-mermaid",
     "bierner.markdown-preview-github-styles",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "GitHub.codespaces",
+    "mathematic.vscode-pdf",
     "mechatroner.rainbow-csv",
-    "ms-python.vscode-python-envs"
+    "McCarter.start-git-bash",
+    "medo64.render-crlf",
+    "miramac.vscode-exec-node",
+    "ms-python.vscode-python-envs",
+    "ms-vscode.js-debug",
+    "narasimapandiyan.jetbrainsmono",
+    "oderwat.indent-rainbow",
+    "tal7aouy.icons",
+    "ritwickdey.LiveServer",
+    "yahyabatulu.vscode-markdown-alert",
+    "yy0931.vscode-sqlite3-editor"
   ]
 }
