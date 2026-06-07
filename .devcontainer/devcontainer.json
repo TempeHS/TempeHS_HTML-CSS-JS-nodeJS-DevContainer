@@ -1,16 +1,12 @@
 {
   "name": "HTML, CSS & JS",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
-    // "ghcr.io/devcontainers/features/sqlite:1": {}
-  },
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
-  "postCreateCommand": "",  // Add setup scripts here if needed
+  "postCreateCommand": "",
   "customizations": {
     "vscode": {
       "settings": {
@@ -24,13 +20,12 @@
         "editor.fontSize": 18,
         "extensions.ignoreRecommendations": true,
         "unwantedRecommendations": ["ms-python.vscode-python-envs"],
-        "terminal.integrated.defaultProfile.windows": "Git Bash",
         "window.restoreWindows": "preserve",
         "workbench.editorAssociations": {
           "*.md": "vscode.markdown.preview.editor"
         },
         "workbench.colorTheme": "Default Dark+",
-        "workbench.iconTheme": "vscode-icons",
+        "workbench.iconTheme": "vscicons",
         "github.copilot.enable": {
           "python": false,
           "html": false,
@@ -53,7 +48,8 @@
         "ms-vscode.js-debug",
         "oderwat.indent-rainbow",
         "streetsidesoftware.code-spell-checker",
-        "tal7aouy.icons",
+        "streetsidesoftware.code-spell-checker-british-english",
+        "yusifaliyevpro.vscicons",
         "ritwickdey.LiveServer",
         "saeris.markdown-github-alerts",
         "yy0931.vscode-sqlite3-editor"
